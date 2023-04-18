@@ -516,16 +516,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
-.my-20 {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-}
-
 .my-24 {
   margin-top: 6rem;
   margin-bottom: 6rem;
@@ -535,45 +525,13 @@ video {
   display: flex;
 }
 
-.w-9 {
-  width: 2.25rem;
+.w-80 {
+  width: 20rem;
 }
 
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
-}
-
-.w-10 {
-  width: 2.5rem;
-}
-
-.w-8 {
-  width: 2rem;
-}
-
-.w-12 {
-  width: 3rem;
-}
-
-.w-20 {
-  width: 5rem;
-}
-
-.w-36 {
-  width: 9rem;
-}
-
-.w-56 {
-  width: 14rem;
-}
-
-.w-72 {
-  width: 18rem;
-}
-
-.w-80 {
-  width: 20rem;
 }
 
 .items-center {
@@ -593,41 +551,36 @@ video {
   fill: #262626;
 }
 
-.p-10 {
-  padding: 2.5rem;
-}
-
-.p-12 {
-  padding: 3rem;
-}
-
-.p-14 {
-  padding: 3.5rem;
+.p-16 {
+  padding: 4rem;
 }
 
 .p-6 {
   padding: 1.5rem;
 }
 
-.p-32 {
-  padding: 8rem;
-}
-
 .p-24 {
   padding: 6rem;
 }
 
-.p-20 {
-  padding: 5rem;
-}
-
-.p-16 {
-  padding: 4rem;
+.px-24 {
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.px-36 {
+  padding-left: 9rem;
+  padding-right: 9rem;
+}
+
+.px-44 {
+  padding-left: 11rem;
+  padding-right: 11rem;
 }
 
 .font-bold {
@@ -668,10 +621,6 @@ li:hover {
 
   .md\:justify-between {
     justify-content: space-between;
-  }
-
-  .md\:justify-around {
-    justify-content: space-around;
   }
 
   .md\:gap-6 {
