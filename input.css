@@ -2,12 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  li {
+    @apply hover:underline underline-offset-8;
+  }
+}
+
 #home {
   background-image: url('../images/desktop/image-hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-li {
-  @apply hover:underline underline-offset-8;
 }
